@@ -1,10 +1,11 @@
+import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { Toaster } from "react-hot-toast";
 import App from "./components/App/App.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
     <Toaster
       position="top-right"
@@ -19,5 +20,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         },
       }}
     />
-  </React.StrictMode>,
+  </StrictMode>,
 );
