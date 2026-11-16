@@ -1,0 +1,47 @@
+.error {
+  border: 1px solid #f5d4d9;
+  background: #fff;
+  border-radius: 18px;
+  text-align: center;
+  padding: 65px 25px;
+}
+.icon {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  background: #fff0f0;
+  color: #d15a6d;
+  font-size: 28px;
+}
+.error h3 {
+  font:
+    800 23px Manrope,
+    sans-serif;
+  color: #373b55;
+  margin: 18px 0 8px;
+}
+.error p {
+  color: #868ba4;
+  max-width: 570px;
+  margin: 0 auto 20px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.retry {
+  border: 0;
+  border-radius: 9px;
+  background: #4756c5;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 12px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+.retry:hover {
+  background: #3446b0;
+}

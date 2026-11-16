@@ -1,0 +1,11 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 36px 12px;
+  color: #8188a7;
+  font-size: 13px;
+  font-weight: 600;
+}
